@@ -1,6 +1,7 @@
 name: pablof - milestone
 
 on:
+  pull_request:
   milestone:
     types: [created, opened, edited, closed, deleted]
 
