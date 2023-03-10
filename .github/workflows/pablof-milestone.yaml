@@ -1,0 +1,11 @@
+name: pablof - milestone
+
+on:
+  milestone:
+    types: [created, opened, edited, closed, deleted]
+
+jobs:
+  pablof-milestone:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: a24k/pablof@milestone-issue
