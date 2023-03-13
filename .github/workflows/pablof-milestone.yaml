@@ -12,4 +12,3 @@ jobs:
       - uses: a24k/pablof@milestone-issue-project
         with:
           token: ${{ secrets.GH_TOKEN }}
-          project: ${{ secrets.PROJECT_ID }}
