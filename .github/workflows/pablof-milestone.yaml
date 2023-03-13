@@ -9,6 +9,6 @@ jobs:
   pablof-milestone:
     runs-on: ubuntu-latest
     steps:
-      - uses: a24k/pablof@milestone-issue-edited
+      - uses: a24k/pablof@milestone-issue
         with:
           token: ${{ secrets.GH_TOKEN }}
