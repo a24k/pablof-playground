@@ -8,7 +8,6 @@ on:
 jobs:
   pablof-milestone:
     runs-on: ubuntu-latest
-    steps:
-      - uses: a24k/pablof@fa5893d9b087b9e0624b07fc1616081702933dae
+      - uses: a24k/pablof@b8a7a2c1681a7d08fd70ca9efbad0d34bbd0a1dc
         with:
           token: ${{ secrets.GH_TOKEN }}
