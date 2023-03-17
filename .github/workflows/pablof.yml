@@ -2,7 +2,7 @@ name: pablof
 
 on:
   pull_request:
-  issue:
+  issues:
     types: [opened]
   milestone:
     types: [created, opened, edited, closed, deleted]
