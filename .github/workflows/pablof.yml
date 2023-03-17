@@ -2,6 +2,8 @@ name: pablof
 
 on:
   pull_request:
+  issue:
+    types: [opened]
   milestone:
     types: [created, opened, edited, closed, deleted]
 
@@ -9,6 +11,6 @@ jobs:
   pablof:
     runs-on: ubuntu-latest
     steps:
-      - uses: a24k/pablof@v0
+      - uses: a24k/pablof@create-sub-issue
         with:
           token: ${{ secrets.GH_TOKEN }}
