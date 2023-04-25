@@ -11,6 +11,6 @@ jobs:
   pablof:
     runs-on: ubuntu-latest
     steps:
-      - uses: a24k/pablof@create-sub-issue
+      - uses: a24k/pablof@derive-issue-body
         with:
           token: ${{ secrets.GH_TOKEN }}
